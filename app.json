@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "travel-app",
+    "slug": "travel-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.palamarchuk.travelapp",
+      "config": {
+        "googleMapsApiKey": "AIzaSyDlU1QUEdZch5dJnz_8LjXR3tileydg4Zw"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "android": {
+      "package": "com.palamarchuk.travelapp",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDlU1QUEdZch5dJnz_8LjXR3tileydg4Zw"
+        }
+      }
+    }
+  }
+}
